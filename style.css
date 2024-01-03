@@ -1,0 +1,149 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Overpass:wght@400;700&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding:  0;
+  box-sizing: border-box;
+}
+
+.attribution { 
+  font-size: 11px;
+   text-align: center; 
+   color: hsl(0, 0%, 100%);
+   margin-top: 2rem;
+  }
+  
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
+
+  body{
+    margin: 1.5rem;
+    min-height: 100vh;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button{
+    font-family: inherit;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  .container,.thank-state{
+    padding: 5rem;
+    border-radius: 0.625rem;
+    background-color: hsl(213, 19%, 18%);
+    max-width: 400px;
+  }
+
+  .container img{
+    background-color: hsl(211, 20%, 21%);
+    padding: 0.6rem;
+    border-radius:50%;
+  }
+
+  .container h1{
+    margin: 2rem 0 1rem;
+    color:  hsl(0, 0%, 100%);
+  }
+
+  p {
+    line-height: 1.8;
+  }
+
+  .container p{
+    color:  hsl(217, 12%, 63%);
+    margin-bottom: 1.2rem;
+  }
+
+  .container ul{
+    margin-bottom: 2rem;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+  }
+
+  .container ul li button{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    padding-top: 0.2rem;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    transition: 0.3s;
+    background-color:hsl(211, 20%, 21%);
+    border-radius: 50%;
+  }
+
+  .container ul li button:hover{
+    background-color:  hsl(25, 97%, 53%);
+  }
+
+  .container ul li button:focus{
+    background-color:  hsl(217, 12%, 63%);
+  }
+
+  .btn{
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: 0.5rem 0 0.5rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+  }
+
+  .thank-state{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .thank-state img{
+    display: flex;
+    margin: 0 auto 2rem;
+  }
+
+  .thank-state p.selected{
+    background-color:hsl(211, 20%, 21%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    padding: 0.2rem 0.5rem 0;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+
+  .thank-state h2{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+  }
+
+  .thank-state p{
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 2rem;
+  }
+
+  .hidden{
+    display: none;
+  }
